@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Adidas",
+    "description" : "Adidas est une firme allemande fondée en 1949 par Adolf Dassler, spécialisée dans la fabrication d'articles de sport, basée à Herzogenaurach en Allemagne. Elle est mondialement connue sous l'appellation « la marque aux trois bandes », en raison des trois bandes parallèles qui constituent son logo.",
+    "banner": "adidas_banner.png",
+    "image": "adidas_logo.png"
+  },
+  {
+    "name": "Nike",
+    "description" : "Nike est une société américaine créée en 1971 par Philip Knight et Bill Bowerman. Basée à Beaverton dans l'Oregon, elle est spécialisée dans la fabrication d'articles de sport.",
+    "banner": "nike_banner.jpg",
+    "image": "nike_logo.png"
+  },
+  {
+    "name": "Air Jordan",
+    "description" : "Nike Air Jordan est une filiale de chaussures de basket-ball de la marque Nike, frappées du nom de Michael Jordan, ancien joueur des Bulls de Chicago en NBA.",
+    "banner": "jordan_banner.png",
+    "image": "jordan_logo.png"
+  },
+  {
+    "name": "Asics",
+    "description" : "ASICS ou Asics est un équipementier sportif d'origine japonaise fondé en 1949 et notamment connu pour ses chaussures de course à pied.",
+    "banner": "Asics_Banner.webp",
+    "image": "asics_logo.png"
+  },
+  {
+    "name": "New Balance",
+    "description" : "New Balance est une société américaine créée en 1906 par William J. Riley. Basée à Boston dans le Massachusetts, elle est spécialisée dans la fabrication d'articles de sport",
+    "banner": "nb_banner.png",
+    "image": "nb_logo.png"
+  }
+]

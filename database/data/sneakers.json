@@ -1,0 +1,409 @@
+[
+    {
+        "name": "adidas UltraBoost DNA Leather White",
+        "description": "La marque aux trois bandes rend hommage à la célèbre Superstar au travers d’une adidas UltraBoost DNA Leather White inédite.",
+        "price": "160",
+        "color": "White/Gold Metallic/Core Black",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": "adidas Yeezy Boost 350 V2 Linen",
+        "description": "La saga Yeezy se poursuivra ce printemps avec l'arrivée de cette nouvelle adidas Yeezy Boost 350 V2 Linen.",
+        "price": "220",
+        "color": "Linen/Linen/Linen",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": " ADIDAS YEEZY BOOST 700 MNVN",
+        "description": "La nouvelle création du designer de Chicago, la adidas Yeezy Boost 700 MNVN Phosphor, fera ses débuts au printemps 2020.",
+        "price": "220",
+        "color": "Phosphor",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": "adidas Originals x Pharrell Williams, Continental 80",
+        "description": "L’équipementier et le serial hitmaker lèvent le voile sur une nouvelle collection Pharrell x adidas Originals Printemps 2020.",
+        "price": "100",
+        "color": "Ecru Tint",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": "adidas Originals x Pharrell Williams, Campus 80",
+        "description": "L’équipementier et le serial hitmaker lèvent le voile sur une nouvelle collection Pharrell x adidas Originals Printemps 2020.",
+        "price": "100",
+        "color": "Clear Brown",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": "adidas Yeezy Boost 350 V2 \"Cinder Reflective\"",
+        "description": "La très attendue adidas Yeezy Boost 350 v2 \"Cinder Reflective\" fera ses débuts courant avril 2020.",
+        "price": "220",
+        "color": "Cinder Reflective",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": "Jonah Hill x adidas Superstar",
+        "description": "Après de longs mois d’attente, la date de sortie de la collaboration Jonah Hill x adidas Superstar vient enfin d’être dévoilée.",
+        "price": "130",
+        "color": " White/Black",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": "adidas Bounce Workshop Black/Multi",
+        "description": "La adidas Bounce Workshop Black/Multi est le fruit de la rencontre entre une sneaker contemporaine et la technologie du millénaire.",
+        "price": "150",
+        "color": "Black, Chalk & Multi",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": "adidas Yeezy Boost 380 Mist",
+        "description": "Kanye West continue de proclamer son amour pour les tons neutres au travers d’une toute nouvelle adidas Yeezy Boost 380 Mist.",
+        "price": "230",
+        "color": "Mist/Mist-Mist",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": "END x adidas Tower Bridge",
+        "description": "\nEND x adidas \"Three British Bridges\" Collection\nLe célèbre détaillant rend hommage à l’architecture britannique au travers de la nouvelle collection END x adidas \"Three British Bridges\".",
+        "price": "99",
+        "color": "Chili Pepper/Red/Navy",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "1"
+    },
+    {
+        "name": "Nike Air Max 95 Greedy 2.0",
+        "description": "Nike Sportswear lève le voile sur une nouvelle Nike Air Max 95 Greedy 2.0 dans le cadre du 25ème anniversaire de la célèbre runner.",
+        "price": "180",
+        "color": "Multi-Color",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Nike Air Force 1 Low Tear Away ",
+        "description": "La division Nike Sportswear égaillera notre rotation estivale avec un tout nouveau Nike Air Force 1 Low Tear Away Pack.",
+        "price": "110",
+        "color": "White",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Ben & Jerry’s x Nike SB Dunk Low \"Chunky Dunky\"",
+        "description": "Cette collaboration savoureuse entre la division skateboarding de l’équipementier et le célèbre fabricant de glaces est dotée d’un look haut en couleurs.",
+        "price": "100",
+        "color": "White/Lagoon Pulse-Black-University Gold",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Nike Air Force 1 Low WMNS Easter",
+        "description": "Alors que l’on s'apprête à fêter Pâques, Nike Sportswear nous surprend avec une seconde Nike Air Force 1 Low WMNS Easter.",
+        "price": "110",
+        "color": "White/Multi",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Nike Air Force 1 Low Sketch White Blue",
+        "description": "En parallèle au coloris White/Black, la Nike Air Force 1 Low Sketch White Blue est une déclinaison inédite.",
+        "price": "110",
+        "color": "White/Blue",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Nike Air Max 90 Orange",
+        "description": "Les festivités entourant le 30ème anniversaire du design de Tinker Hatfield se poursuivent avec l’introduction d’une Nike Air Max 90 Orange.",
+        "price": "140",
+        "color": "White/Grey-Orange-Black",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Isle Skateboards x Nike SB Blazer Mid",
+        "description": "Paul Shier et Nick Jensen font équipe avec Nike Skateboarding sur une Isle Skateboards x Nike SB Blazer Mid inédite.",
+        "price": "100",
+        "color": "Black/White/Photo Blue",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Nike Air Max 90 Blue Cork",
+        "description": "En parallèle à la déclinaison White, Nike Sportswear nous a également concocté une Nike Air Max 90 Blue Cork pour le printemps 2020.",
+        "price": "140",
+        "color": "Blue",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Nike SB Dunk Low Muslin",
+        "description": "En parallèle au coloris Blue’s Clues, la division Nike SB nous a également préparé une Dunk Low Muslin pour le printemps 2020.",
+        "price": "95",
+        "color": "Muslin/Black/Muslin",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Nike Air Max 90 Slides",
+        "description": "La marque de Beaverton réinvente le célèbre design de Tinker Hatfield au travers d’une collection inédite de Nike Air Max 90 Slides.",
+        "price": "75",
+        "color": "",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "2"
+    },
+    {
+        "name": "Air Jordan 1 Low Green Suede",
+        "description": "En parallèle au coloris Laser Blue, Jordan Brand nous a également préparé une Air Jordan 1 Low Green Suede pour le printemps.",
+        "price": "100",
+        "color": "Black/Cyber-White",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "Air Jordan 1 High OG WMNS Satin Snake Red",
+        "description": "La saison estivale sera marquée par les débuts d’une toute nouvelle Air Jordan 1 High OG WMNS Satin Snake Red pour femmes.",
+        "price": "160",
+        "color": "Gym Red/White-Black",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "Air Jordan 4 Green Metallic",
+        "description": "Jordan Brand lève le voile sur une nouvelle Air Jordan 4 Metallic Green dans le cadre du 30ème anniversaire du design de Tinker Hatfield.",
+        "price": "190",
+        "color": " White/Pine Green-Metallic Silver",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "Air Jordan 1 Mid \"Pine Green\"",
+        "description": "De nouveaux coloris annonçant la venue du printemps commencent à faire leur apparition, parmi eux, la Air Jordan 1 Mid \"Pine Green\"",
+        "price": "110",
+        "color": "Pine Green/White-Black-University Red\n",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "Air Jordan 3 Court Purple",
+        "description": "Les fans des Los Angeles Lakers seront ravis d’apprendre qu’une Air Jordan 3 Court Purple devrait faire ses débuts à la mi-novembre 2020.",
+        "price": "190",
+        "color": "Black/Cement Grey-White-Court Purple",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "Air Jordan 1 Mid \"Hulk\"",
+        "description": "La marque au Jumpman lève le voile sur une nouvelle Air Jordan 1 Mid aux couleurs du personnage Hulk.",
+        "price": "110",
+        "color": "Aloe Verde/Court Purple",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "Air Jordan 1 Retro High Zoom “Racer Blue”",
+        "description": "Après avoir présenté la Air Jordan 1 Zoom R2T \"Fearless\", Jordan Brand enchaîne avec une Air Jordan 1 Retro High Zoom \"Racer Blue\".",
+        "price": "175",
+        "color": "White/Racer Blue-White",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "Dior x Air Jordan 1 High",
+        "description": "C’est désormais officiel, la très attendue Dior x Air Jordan 1 High fera ses débuts courant avril 2020.",
+        "price": "2000",
+        "color": "Grey/Black-Sail",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "Air Jordan 2 Rivals",
+        "description": "La marque au Jumpman continue d’attiser les éternelles rivalités au sein de la NBA avec une Air Jordan 2 “Rivals” inédite pour femmes.",
+        "price": "190",
+        "color": "University Red/Black-Court Purple",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "Sheila Rashid x Air Jordan 1 Mid",
+        "description": "Issue de la collection \"Chicago Collaborators\", la collaboration Sheila Rashid x Air Jordan 1 Mid fera ses débuts pour le All-Star Weekend.",
+        "price": "130",
+        "color": "Medium Grey/Cool Grey/Court Purple",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "3"
+    },
+    {
+        "name": "ASICS GEL-Lyte III Barcode",
+        "description": "Les festivités entourant le trentième anniversaire de la ASICS GEL-Lyte III se poursuivent avec l’introduction du coloris surnommé \"Barcode\".",
+        "price": "120",
+        "color": "Black / Black",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "mita sneakers x Asics Gel Lyte III \"30th Anniversary\"",
+        "description": "Une mita sneakers x Asics Gel Lyte III \"30th Anniversary\" verra le jour pour fêter les 30 ans du modèle.",
+        "price": "190",
+        "color": "White/Blue/Red",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "Asics Gel-Lyte III OG Citrus",
+        "description": "Alors que l'été est bien et bel terminé, Asics nous propose de retrouver une déclinaison acidulée pour l'hiver, la Asics Gel-Lyte III OG Citrus.",
+        "price": "120",
+        "color": "White/Yellow",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "Ronnie Fieg x ASICS Gel Fieg 3.1 \"Super Blue\" 10th Anniversary",
+        "description": "Les fans d’Asics seront ravis d’apprendre qu’une nouvelle Ronnie Fieg x ASICS Gel Fieg 3.1 \"Super Blue\" est sur le point de faire ses débuts lors du KITH Monday Program.",
+        "price": "200",
+        "color": "suède bleu marine",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "Chemist Creations x ASICS GEL-Kayano 5 OG \"Marshmallow\"",
+        "description": "Yixi Chen s’associe une nouvelle fois avec la marque japonaise pour nous présenter la Chemist Creations x ASICS GEL-Kayano 5 OG \"Marshmallow\".",
+        "price": "180",
+        "color": "Cream-feather-grey",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "Vivienne Westwood x Asics HyperGEL-LYTE",
+        "description": "La Vivienne Westwood x Asics HyperGEL-LYTE est la troisième et dernière déclinaison de la collection imaginée par la styliste britannique.",
+        "price": "150",
+        "color": "LIGHT STEEL/ORANGE",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "Asics Gel Kayano 5 OG Blue Yellow",
+        "description": "L’équipementier japonais célébrera les 25 ans du modèle avec la réédition de la Asics Gel Kayano 5 OG Blue Yellow.",
+        "price": "140",
+        "color": "Blue / Yellow",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "Asics Gel Lyte III Lacquer Pack \"Yeezy\"",
+        "description": "Les plus jolis coloris proposés dans le monde de la sneakers sont parfois les plus simples. Et ça Asics l'a bien compris en nous proposant la Asics Gel Lyte III Lacquer Pack.",
+        "price": "145",
+        "color": "BLACK",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "Asics GEL-Lyte 3 Monozukuri",
+        "description": "La marque de Kihachiro Onitsuka revisite la célèbre runner au travers du nouveau pack Asics GEL-Lyte 3 Monozukuri.",
+        "price": "130",
+        "color": "Smoke Blue/Grand Shark",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "Above the Clouds x ASICS GEL-1090",
+        "description": "La boutique de Surry Hills, Above The Clouds, célèbre son dixième anniversaire avec une première collaboration sur la ASICS GEL-1090.",
+        "price": "140",
+        "color": "Ivory/Wood Crepe",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "4"
+    },
+    {
+        "name": "Une Kith x New Balance 990V2 Dusty à l'horizon",
+        "description": "Après une New Balance 1300 RC, Ronnie Fieg nous offre un aperçu de son nouveau projet, la Kith x New Balance 990V2 Dusty.",
+        "price": "120",
+        "color": "rose poudré",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "5"
+    },
+    {
+        "name": "Casablanca x New Balance 327 Pack",
+        "description": "Le pack Casablanca x New Balance 327 est le fruit d’une collaboration inédite entre Charaf Tajer et la marque de Boston.",
+        "price": "150",
+        "color": "White/Green",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "5"
+    },
+    {
+        "name": "Levi's x New Balance M1300CL \"Orange Tab\"",
+        "description": "La Levi's x New Balance M1300CL \"Orange Tab\" est le fruit d’une collaboration inédite entre la marque de Boston et Levi Strauss & Co.",
+        "price": "190",
+        "color": "Tan",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "5"
+    },
+    {
+        "name": "New Balance M997 SOB Light Green",
+        "description": "La New Balance M997 SOB Light Green est une édition premium qui s’annonce déjà comme un incontournable de la saison printanière 2020.",
+        "price": "220",
+        "color": "Light Green/Mint",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "5"
+    },
+    {
+        "name": "Slam Jam x New Balance 990v3",
+        "description": "La célèbre boutique italienne célébrera son trentième anniversaire avec une édition ultra-limitée, la Slam Jam x New Balance 990 v3.",
+        "price": "190",
+        "color": "Grey",
+        "release_date": "",
+        "active": "1",
+        "brand_id": "5"
+    }
+]
+
+
