@@ -15,7 +15,7 @@
         <div class="d-flex justify-content-between mt-5">
             @foreach($brands as $brand)
                 <a style="width: 15%" href="{{route('brand.show', $brand->id)}}">
-                    <img  class="rounded-lg border p-2 w-100"  src="/storage/images/brand/{{$brand->image}}">
+                    <img  class="rounded-lg border p-2 w-100"  src="{{$brand->image}}">
                 </a>
 
             @endforeach
@@ -27,7 +27,7 @@
             @foreach($products as $product)
                 <div class="card mb-5" id="subProduct">
                     <img style="object-fit: cover"
-                         src="/storage/images/sneakers/{{$product->image['0']->name}}"
+                         src="{{$product->image['0']->name}}"
                          class="card-img-top w-100 h-50" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-truncate">{{$product->name}}</h5>

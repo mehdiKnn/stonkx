@@ -12,12 +12,16 @@ class ProductImageSeeder extends Seeder
      */
     public function run()
     {
+
         $json = File::get("database/data/image.json");
         $data = json_decode($json);
-        foreach ($data as $obj){
+
+        foreach ($data as $obj) {
+            Cloudder::upload(storage_path("images/sneakers/" . $obj->name));
+            $banner = Cloudder::getResult();
             $image = new ProductImage();
             $image->product_id = $obj->product_id;
-            $image->name = $obj->name;
+            $image->name = $banner['url'];
             $image->save();
         }
     }

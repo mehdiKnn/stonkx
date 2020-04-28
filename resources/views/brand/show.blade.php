@@ -9,13 +9,13 @@
                 <h6>{{$brand->description}}</h6>
             </div>
             <img id="noMobile" class="w-100 rounded mt-5"
-                 src="/storage/images/brand/{{$brand->banner}}">
+                 src="{{$brand->banner}}">
         </div>
         <div class="d-flex flex-wrap pt-5 justify-content-between" id="subTwo">
             @foreach($products as $product)
                 <div class="card mb-2" id="subProduct">
                     <img style="object-fit: cover"
-                         src="/storage/images/sneakers/{{$product->image['0']->name}}"
+                         src="{{$product->image['0']->name}}"
                          class="card-img-top w-100 h-50" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-truncate">{{$product->name}}</h6>

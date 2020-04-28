@@ -15,6 +15,7 @@ class ProductSeeder extends Seeder
     {
         $json = File::get("database/data/sneakers.json");
         $data = json_decode($json);
+
         foreach ($data as $obj){
             $product = new Product();
             $product->name = $obj->name;

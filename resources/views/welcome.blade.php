@@ -10,13 +10,13 @@
                 <button class="btn btn-dark">Browse</button>
             </div>
             <img id="subImg"
-                 src="/storage/images/sneakers/{{$products['7']->image['0']->name}}">
+                 src="{{$products['7']->image['0']->name}}">
         </div>
         <div class="d-flex flex-wrap justify-content-between align-items-start pt-5" id="subTwo">
             @foreach($products as $product)
                 <div class="card mb-5" id="subProduct">
                     <img style="object-fit: cover"
-                         src="/storage/images/sneakers/{{$product->image['0']->name}}"
+                         src="{{$product->image['0']->name}}"
                          class="card-img-top w-100 h-50" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-truncate">{{$product->name}}</h6>
