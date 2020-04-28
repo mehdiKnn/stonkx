@@ -17,7 +17,7 @@ class ProductImageSeeder extends Seeder
         $data = json_decode($json);
 
         foreach ($data as $obj) {
-            Cloudder::upload(storage_path("images/sneakers/" . $obj->name));
+            Cloudder::upload(storage_path("images/sneakers/" . $obj->name),null,array("folder"=>"Stonk/Products/"));
             $banner = Cloudder::getResult();
             $image = new ProductImage();
             $image->product_id = $obj->product_id;

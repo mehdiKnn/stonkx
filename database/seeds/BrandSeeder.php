@@ -20,9 +20,9 @@ class BrandSeeder extends Seeder
         $json = File::get("database/data/brands.json");
         $data = json_decode($json);
         foreach ($data as $obj){
-            Cloudder::upload(storage_path("images/brand/".$obj->banner));
+            Cloudder::upload(storage_path("images/brand/".$obj->banner),null, array("folder"=>"Stonk/Brands/"));
             $banner = Cloudder::getResult();
-            Cloudder::upload(storage_path("images/brand/".$obj->image));
+            Cloudder::upload(storage_path("images/brand/".$obj->image),null,array("folder"=>"Stonk/Brands/"));
             $image = Cloudder::getResult();
             $brand = new Brand();
             $brand->name = $obj->name;
