@@ -34,7 +34,7 @@
                         <p class="card-text text-truncate">{{$product->color}}</p>
                         <p class="card-text font-weight-bold">{{$product->price}}
                             €</p>
-                        <a href="#" class="btn btn-dark">See more</a>
+                        <a href="{{route('products.show', $product->id)}}" class="btn btn-dark">See more</a>
                     </div>
                 </div>
             @endforeach

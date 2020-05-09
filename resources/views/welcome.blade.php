@@ -7,7 +7,7 @@
                 <h1 class="text-muted">Shop</h1>
                 <h1>Sneakers</h1>
                 <span class="mb-3">Choose between 40+ sneakers selected by sneakerheads from around the world</span>
-                <button class="btn btn-dark">Browse</button>
+                <a class="btn btn-dark" href="{{route('products.index')}}"> Browse</a>
             </div>
             <img id="subImg"
                  src="{{$products['7']->image['0']->name}}">
@@ -23,7 +23,7 @@
                         <p class="card-text text-truncate">{{$product->color}}</p>
                         <p class="card-text font-weight-bold">{{$product->price}}
                             €</p>
-                        <a href="#" class="btn btn-dark">See more</a>
+                        <a href="{{route('products.show', $product->id)}}" class="btn btn-dark">See more</a>
                     </div>
                 </div>
             @endforeach

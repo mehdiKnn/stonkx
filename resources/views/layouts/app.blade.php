@@ -26,7 +26,8 @@
     <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
             <h2 class="font-weight-bold" href="{{ url('/') }}">
-                <a class="nav-link text-dark" href="{{route('welcome')}}">{{ config('app.name', 'Laravel') }}</a>
+                <a class="nav-link text-dark"
+                   href="{{route('welcome')}}">{{ config('app.name', 'Laravel') }}</a>
 
             </h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -39,7 +40,7 @@
             <div class="collapse navbar-collapse justify-content-end"
                  id="navbarSupportedContent">
                 <!-- Right Side Of Navbar -->
-                <ul class="navbar-nav align-items-center justify-content-around w-50">
+                <ul id="navbar" class="navbar-nav align-items-center justify-content-around w-50">
 
                     <li class="nav-item">
                         <a class="nav-link text-dark"
