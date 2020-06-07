@@ -17,7 +17,7 @@ class NewsSeeder extends Seeder
         $json = File::get("database/data/news.json");
         $data = json_decode($json);
         foreach ($data as $obj){
-            Cloudder::upload(storage_path("images/news/".$obj->img),null, array("folder"=>"dev/news/"));
+            Cloudder::upload(storage_path("images/news/".$obj->img),null, array("folder"=>"Stonk/news/"));
             $img = Cloudder::getResult();
             $news = new News();
             $news->title = $obj->title;

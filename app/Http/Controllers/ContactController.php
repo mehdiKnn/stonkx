@@ -38,7 +38,6 @@ class ContactController extends Controller
 
 
         Mail::to($mail)->send(new MailTrap($mail, $firstname, $lastname, $subject, $message));
-        $request->session()->flash('status', 'Envoyé avec succés !');
         return view('contact.form');
     }
 }
