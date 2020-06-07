@@ -17,7 +17,10 @@ Route::get('/', 'IndexController@__invoke')->name('welcome');
 Route::get('/products', 'ProductController@index')->name('products.index');
 Route::get('/products/{id}', 'ProductController@show')->name('products.show');
 Route::get('/brand/{id}','BrandController@show')->name('brand.show');
-
+Route::get('/news', 'NewsController@index')->name('news.index');
+Route::get('/news/{id}', 'NewsController@show')->name('news.show');
+Route::get('/contact', 'ContactController@index')->name('contact.form');
+Route::post('/contact','ContactController@send')->name('contact.send');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

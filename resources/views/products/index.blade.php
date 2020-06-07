@@ -9,7 +9,7 @@
                 streetwear resell market, we offer you the best streetwear at
                 the best price !</h5>
             <img class="w-100 rounded mt-5"
-                 src="{{storage_path("images/brand/main.png")}}" id="noMobile">
+                 src="{{asset('storage/images/brand/main.png')}}" id="noMobile">
         </div>
         <h1 class="mt-5">Our Brands ({{sizeof($brands)}})</h1>
         <div class="d-flex justify-content-between mt-5">

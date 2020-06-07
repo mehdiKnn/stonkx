@@ -21,6 +21,7 @@ class CreateNewsTable extends Migration
             $table->string('author');
             $table->date('release_date');
             $table->boolean('active');
+            $table->string('img');
             $table->timestamps();
         });
     }

@@ -54,7 +54,7 @@
                         <div class="dropdown-menu"
                              aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item"
-                               href="{{route('products.index')}}#">All
+                               href="{{route('products.index')}}">All
                                 Sneakers</a>
 
                             @foreach($brands as $brand)
@@ -64,10 +64,10 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark">News</a>
+                        <a class="nav-link text-dark" href="{{route('news.index')}}">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark">Contact</a>
+                        <a class="nav-link text-dark" href="{{route('contact.form')}}">Contact</a>
                     </li>
                     @guest
                         <li class="nav-item">
