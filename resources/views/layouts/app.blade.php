@@ -40,7 +40,8 @@
             <div class="collapse navbar-collapse justify-content-end"
                  id="navbarSupportedContent">
                 <!-- Right Side Of Navbar -->
-                <ul id="navbar" class="navbar-nav align-items-center justify-content-around w-50">
+                <ul id="navbar"
+                    class="navbar-nav align-items-center justify-content-around w-50">
 
                     <li class="nav-item">
                         <a class="nav-link text-dark"
@@ -64,10 +65,17 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="{{route('news.index')}}">News</a>
+                        <a class="nav-link text-dark"
+                           href="{{route('news.index')}}">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="{{route('contact.form')}}">Contact</a>
+                        <a class="nav-link text-dark"
+                           href="{{route('contact.form')}}">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark"
+                           href="{{route('cart.index')}}">Panier @if(session('cart.products'))
+                                ({{count(session('cart.products'))}})@endif</a>
                     </li>
                     @guest
                         <li class="nav-item">
