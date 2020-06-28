@@ -71,7 +71,7 @@ class OrderController extends Controller
         }
 
         Mail::to('mehdi.kannouni@hotmail.fr')->send(new mailOrder($token, session('cart.products')));
-        session()->flush();
+        session()->forget('cart.products');
         return view('checkout.confirm');
     }
 
