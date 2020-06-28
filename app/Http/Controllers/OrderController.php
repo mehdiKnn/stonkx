@@ -55,7 +55,7 @@ class OrderController extends Controller
         $order->save();
 
         foreach ($products as $product) {
-            if ($product['quantity' ]> 1){
+            if ($product['quantity' ] > 1){
                 for ($i = 1; $i<= $product['quantity']; $i++ ){
                     $order_product = new OrderProduct();
                     $order_product->order_id = $order->id;
