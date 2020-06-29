@@ -18,4 +18,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::apiResource('user', 'Api\ApiProductController');
+Route::apiResource('product', 'Api\ApiProductController');
+Route::get('product/search/{sample}', 'Api\ApiProductController@research')->name('product.research');

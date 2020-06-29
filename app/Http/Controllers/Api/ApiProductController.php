@@ -46,4 +46,25 @@ class ApiProductController extends Controller
             return response()->json($return, 404);
         }
     }
+
+    public function research($sample,Product $product, Request $request, Brand $brand){
+        $return = (object)[
+            'error' => null,
+            'products' => []
+        ];
+        try {
+            $productList =  $product->whereRaw('name LIKE "'.$sample.'%"')->get();
+            foreach ($productList as $products) {
+                $products->brand_id = $brand->find($products->brand_id)->name;
+                $products->img = $products->image[0]->name;
+            }
+
+            $return->products = $productList;
+        } catch (QueryException $e) {
+            $return->error = $e;
+        }
+        return response()->json($return);
+
+
+    }
 }
