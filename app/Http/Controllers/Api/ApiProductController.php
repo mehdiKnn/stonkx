@@ -18,12 +18,11 @@ class ApiProductController extends Controller
         ];
 
         try {
-            $productList =  $product->orderBy('id', 'DESC')->get();
+            $productList =  $product->orderBy('id', 'DESC')->paginate(5);
             foreach ($productList as $products) {
                 $products->brand_id = $brand->find($products->brand_id)->name;
                 $products->img = $products->image[0]->name;
             }
-
             $return->products = $productList;
         } catch (QueryException $e) {
             $return->error = $e;
