@@ -110,7 +110,12 @@
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
                                 </a>
-
+                                @if(Auth::user()->id === 1)
+                                <a class="dropdown-item"
+                                   href="{{ route('admin.user.index') }}">
+                                    Admin
+                                </a>
+                                @endif
                                 <form id="logout-form"
                                       action="{{ route('logout') }}"
                                       method="POST" style="display: none;">
