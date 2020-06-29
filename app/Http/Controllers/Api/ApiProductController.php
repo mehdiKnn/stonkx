@@ -53,7 +53,7 @@ class ApiProductController extends Controller
             'products' => []
         ];
         try {
-            $productList =  $product->whereRaw('name LIKE "'.$sample.'%"')->get();
+            $productList =  $product->whereRaw("name LIKE '".$sample."%'")->get();
             foreach ($productList as $products) {
                 $products->brand_id = $brand->find($products->brand_id)->name;
                 $products->img = $products->image[0]->name;
